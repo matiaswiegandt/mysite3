@@ -38,6 +38,7 @@ p {
 .section {
 	position: relative;
 	height: 60vh;
+
 }
 
 .section .section-center {
@@ -47,6 +48,7 @@ p {
 	right: 0;
 	-webkit-transform: translateY(-50%);
 	transform: translateY(-50%);
+	
 }
 
 #booking {
@@ -67,6 +69,7 @@ p {
 	border-radius: 4px;
 	-webkit-box-shadow: 0px 0px 10px -5px rgba(0, 0, 0, 0.4);
 	box-shadow: 0px 0px 10px -5px rgba(0, 0, 0, 0.4);
+	
 }
 
 .booking-form .form-group {
@@ -288,7 +291,9 @@ margin-bottom: 30px;
 		background-attachment: fixed;
 		background-image: url(embraer-erj-135-jet.jpg);
 		background-size: cover;
-		height: 500px;
+		background-repeat: no-repeat;
+		height: 450px;
+		width: fit-content;
 	}
 
 	h9 {
